@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lc.dao.UserDao">
+
+
+        <select id="selectAllUser" resultType="map">
+            select *
+            from user
+        </select>
+
+        <select id="selectPriceInnerJoinPriceOrder" parameterType="map" resultType="map">
+            select *
+            from price p1
+            inner join price_order p2
+            on p1.p_id = p2.p_id
+            where p2.open_id = #{open_id}
+            and p1.p_condition=#{num}
+        </select>
+
+
+
+</mapper>

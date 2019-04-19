@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="javabase64-1.3">
+    <CLASSES>
+      <root url="file://G:/java学习笔记/jar包/quote/javabase64-1.3.1" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://G:/java学习笔记/jar包/quote/javabase64-1.3.1/doc/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://G:/java学习笔记/jar包/quote/javabase64-1.3.1/src" />
+    </SOURCES>
+    <jarDirectory url="file://G:/java学习笔记/jar包/quote/javabase64-1.3.1" recursive="false" />
+  </library>
+</component>

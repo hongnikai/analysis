@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="calc-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://G:/java学习笔记/jar包/quote/calc-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://G:/java学习笔记/jar包/quote/calc-1.0-SNAPSHOT.jar!/doc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://G:/java学习笔记/jar包/quote/calc-1.0-SNAPSHOT.jar!/" />
+    </SOURCES>
+  </library>
+</component>
