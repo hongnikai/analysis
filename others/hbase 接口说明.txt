@@ -1,0 +1,29 @@
+	public void toHbase(String tableName,String rowkey,String columnFamily,Map<String,String> values)
+        columnFamily = "info"
+
+
+
+
+package com.sgcc.nosql.hbase;
+
+
+192.168.68.71
+root
+geostar
+
+
+
+hbase shell
+scan 'xsgl:ELP_LD_DIST_TRANS_MET_LOAD_V'
+scan 'xsgl:ELP_LD_MET_LOAD_INDEX_MT'
+truncate 'xsgl:ELP_LD_DIST_TRANS_MET_LOAD_V'
+truncate 'xsgl:ELP_LD_MET_LOAD_INDEX_MT'
+
+
+
+
+
+
+
+
+

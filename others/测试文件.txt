@@ -1,0 +1,24 @@
+﻿<!Entity=湖南 type=数据召测 time='2017-04-06_12:34:57' !>
+<TaskInformation>
+@taskId,type,planTime,generDate
+#4028c42d66b357fe0166b38ae7e90016,0,20181027201112,20181027201112
+</TaskInformation>
+<Maintransformer>
+@ deviceId,proviceCode,cityCode,name,datatype,dataDate,v
+#
+</Maintransformer>
+<DistributionTransformer>
+@deviceId,proviceCode,cityCode,tgno,meterid,name,datatype,startdate,enddate
+#16M00000013019479,HN,CS,0100192589,2012000010873366,长沙,P,20180925,20180925
+#16M00000013019479,HN,CS,0100192589,2012000010873366,长沙,P,20180925,20180925
+#16M00000013019479,HN,CS,0100192589,2012000010873366,长沙,Q,20180925,20180925
+#16M00000013019479,HN,CS,0100192589,2012000010873366,长沙,Q,20180925,20180925
+#16M00000013019479,HN,CS,0100192589,2012000010873366,长沙,IA,20180925,20180925
+#16M00000013019479,HN,CS,0100192589,2012000010873366,长沙,IA,20180925,20180925
+
+
+</DistributionTransformer>
+<Line>
+@ deviceId,proviceCode,cityCode,meterid,name,datatype,dataDate,v
+#
+</Line>
