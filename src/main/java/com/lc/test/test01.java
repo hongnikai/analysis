@@ -4,11 +4,6 @@ import com.lc.file.AnalysisTtag;
 import com.lc.file.WriteFileLocal;
 import com.lc.util.StringUtil;
 import com.lc.util.ToInterface;
-import org.apache.hadoop.hbase.client.HTable;
-import org.apache.hadoop.hbase.client.Put;
-import org.apache.hadoop.hbase.client.Row;
-import org.apache.hadoop.hbase.util.Bytes;
-import org.junit.Test;
 
 import java.io.*;
 import java.util.*;
@@ -17,7 +12,7 @@ public class test01 {
 
     public  String aaa=null;
 
-    @Test
+//    @Test
     public  void tres()  {
 
         aaa="asdasd";
@@ -33,7 +28,7 @@ public class test01 {
 
     }
 
-    @Test
+//    @Test
     public void aaaaa(){
 
         tres();

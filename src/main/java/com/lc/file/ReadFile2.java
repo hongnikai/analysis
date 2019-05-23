@@ -28,7 +28,7 @@ public class ReadFile2 {
     public String taskId=null;
 
 
-    ReadToHbase readToHbase=new ReadToHbase();
+//    ReadToHbase readToHbase=new ReadToHbase();
 
     public String txtReadAndWrite(File file,String path,String new_path) throws IOException {
         StringBuilder result = new StringBuilder();

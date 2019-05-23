@@ -2,10 +2,8 @@ package com.lc.ReadTag;
 
 
 import com.lc.Habase.Habase;
-import com.lc.file.ReadToHbase;
 import com.lc.file.SwithVi;
 import com.lc.util.CompareMap;
-import com.sgcc.nosql.hbase.HbasePowerImpl;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -24,7 +22,7 @@ public class ReadDTag {
      ** @author LC
      */
     CompareMap c=new CompareMap();
-    HbasePowerImpl hbasePower = new HbasePowerImpl();
+//    HbasePowerImpl hbasePower = new HbasePowerImpl();
     public Object getMessageFromTag(String taskInformation, String distributionTransformer){
 
 //         taskInformation="@taskId,type,planTime,generDate\n" +

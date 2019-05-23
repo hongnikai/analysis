@@ -1,7 +1,6 @@
 package com.lc.file;
 
 import com.lc.util.CompareMap;
-import com.sgcc.pias.PisHbaseImpl;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -21,7 +20,7 @@ public class ReadDFile {
     String middleDay = null;
     int mark=0;
     Map<String,Map<String,String>> join_map =new HashMap<String, Map<String,String>>();
-    PisHbaseImpl pisHbase = new PisHbaseImpl();
+//    PisHbaseImpl pisHbase = new PisHbaseImpl();
 
 
 
@@ -71,13 +70,13 @@ public class ReadDFile {
                 mark=100;
             }
             if(join_map.size()>1000){
-                pisHbase.batchSaveData("xsgl:ELP_LD_DIST_TRANS_MET_LOAD_V","info",join_map);
+//                pisHbase.batchSaveData("xsgl:ELP_LD_DIST_TRANS_MET_LOAD_V","info",join_map);
                 join_map.clear();
             }
         }
         br.close();
         compute(taskInformation,sbuffer,taskId);
-        pisHbase.batchSaveData("xsgl:ELP_LD_DIST_TRANS_MET_LOAD_V","info",join_map);
+//        pisHbase.batchSaveData("xsgl:ELP_LD_DIST_TRANS_MET_LOAD_V","info",join_map);
     }
 
         public void compute(String taskInformation,StringBuffer sbuffer,String taskId){

@@ -1,8 +1,8 @@
 package com.lc.file;
 
 import com.lc.util.CompareMap;
-import com.sgcc.pias.PisHbaseImpl;
-import org.junit.Test;
+//import com.sgcc.pias.PisHbaseImpl;
+//import org.junit.Test;
 
 import java.io.*;
 import java.util.*;
@@ -65,15 +65,15 @@ public class ReadMFile {
                 mark=100;
             }
             if(join_map.size()>1000){
-                PisHbaseImpl pisHbase = new PisHbaseImpl();
-                pisHbase.batchSaveData("xsgl:ELP_LD_MET_LOAD_INDEX_MT","info",join_map);
+//                PisHbaseImpl pisHbase = new PisHbaseImpl();
+//                pisHbase.batchSaveData("xsgl:ELP_LD_MET_LOAD_INDEX_MT","info",join_map);
                 join_map.clear();
             }
         }
         br.close();
         compute(taskInformation,sbuffer,taskId);
-        PisHbaseImpl pisHbase = new PisHbaseImpl();
-        pisHbase.batchSaveData("xsgl:ELP_LD_MET_LOAD_INDEX_MT","info",join_map);
+//        PisHbaseImpl pisHbase = new PisHbaseImpl();
+//        pisHbase.batchSaveData("xsgl:ELP_LD_MET_LOAD_INDEX_MT","info",join_map);
 
     }
 

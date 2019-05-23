@@ -1,13 +1,11 @@
 package com.lc.util;
 
-import org.apache.http.HttpResponse;
 import org.apache.poi.hssf.record.formula.functions.T;
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.hssf.util.HSSFColor;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.jsp.tagext.PageData;
 import java.io.*;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

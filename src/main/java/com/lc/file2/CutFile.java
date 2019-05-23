@@ -1,6 +1,6 @@
 package com.lc.file2;
 
-import com.lc.file.ReadToHbase;
+//import com.lc.file.ReadToHbase;
 import com.lc.file.WriteFileLocal;
 import com.lc.file.removeFile;
 import com.lc.util.TimeUtil;
@@ -20,7 +20,7 @@ public class CutFile {
     List<String> list =new ArrayList<String>();
 
 
-    ReadToHbase readToHbase=new ReadToHbase();
+//    ReadToHbase readToHbase=new ReadToHbase();
 
 
     public List<String> txtReadAndWrite(File file, String path,String new_path){
